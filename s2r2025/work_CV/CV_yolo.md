@@ -66,3 +66,19 @@ ros2 run object_localization object_localization_node
 使用 RViz 可视化物品的世界坐标。
 
 在图像窗口中查看目标检测结果
+
+## 输出示例
+检测到目标物品：
+
+发布目标物品的世界坐标，例如：
+```
+x: 1.23
+y: 0.45
+z: 2.34
+```
+未检测到目标物品：
+```
+x: nan
+y: nan
+z: nan
+```
